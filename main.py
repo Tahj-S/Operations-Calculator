@@ -18,7 +18,7 @@ while True:
     subprocess.run(["python", "pi.py"])
 
   elif menu == "3":
-    subprocess.run(["python", settings.py])
+    subprocess.run(["python", "settings.py"])
 
   elif menu == "4":
     credits = input("Are you sure you want to quit (y/n): ")
