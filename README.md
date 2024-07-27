@@ -11,3 +11,8 @@ To be added to README.md...
 - git (optional)
 
 -->
+
+### This Software contains the Apache License
+For more info see [The License](LICENSE.md)
+
+[Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0.txt)
