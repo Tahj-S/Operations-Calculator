@@ -21,3 +21,5 @@ elif menu == "n":
   sys.exit()
 else:
   print ("Invalid Option")
+  subprocess.run(["python", "main.py"])
+  sys.exit()
