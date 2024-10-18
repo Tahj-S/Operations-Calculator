@@ -41,7 +41,7 @@ while True:
     os.system("clear")
     while True:
       print ("What would you like to change:")
-      set = input ("\n 1. Turn On/Off Credits (Off by defaultp) \n 2. Turn On/Off Descriptions (Off by deafault) \n")
+      set = input ("\n 1. Turn On/Off Credits (Off by default) \n 2. Turn On/Off Descriptions (Off by deafault) \n *RESETS EVERY RUN* \n")
       if set == "1":
         crset = input ("Turn on or off credits? ")
         if crset == "off":
