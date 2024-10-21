@@ -25,4 +25,5 @@ For more info see [The License](LICENSE.md)
 Clone the repo using `git clone https://github.com/nosstos/Operations-Calculator`
 
 locate the path of the repo. It's usually in the `home` directory
+run the script using python `python PATH/TO/SCRIPT/main.py`
 <!--- unfinished -->
