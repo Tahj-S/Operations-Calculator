@@ -10,60 +10,37 @@ while True:
     time.sleep(2)
     operation = input("Choose your operation: ")
 
-    if operation == "add":
-
-      print ("Calculating...")
-
-      time.sleep(2)
-
-      print ("almost there...")
-
-      time.sleep(2)
+    if operation == "add" or "+":
 
       print(y, "Plus", x, "Equals:", y + x)
       break
 
-    elif operation == "subtract":
-
-      print ("Calculating...")
-
-      time.sleep(2)
-
-      print ("almost there...")
-
-      time.sleep(2)
+    elif operation == "subtract" or "-":
 
       print(y, "subtracted by", x, "Equals:", y - x)
       break
 
-
-    elif operation == "multiply":
-      print ("Calculating...")
-
-      time.sleep(2)
-
-      print ("almost there...")
-
-      time.sleep(2)
+    elif operation == "multiply" or "*":
 
       print(y, "Multiplied by", x, "Equals:", y * x)
       break
 
-    elif operation == "divide":
-      print ("Calculating...")
-
-      time.sleep(2)
-
-      print ("almost there...")
-
-      time.sleep(2)
+    elif operation == "divide" or "/":
 
       print (y, "divided by", x, "Equals:", y / x)
       break
 
-    elif operation == "help":
+    elif operation == "help" or "?":
 
-      print ("add, subtract, multiply, divide, switch, and quit")
+      print ("""
+      add (+)
+      subtract (-)
+      multiply (*)
+      divide (/)
+      help(?)
+      switch (.)
+      quit (!)
+      """)
 
     elif operation == "quit":
       subprocess.run(["python", "main.py"])
@@ -71,6 +48,9 @@ while True:
 
     elif operation == "switch":
       break
+
+    else:
+      print ("Invalid operation")
 
     else:
       print ("Invalid operation")
